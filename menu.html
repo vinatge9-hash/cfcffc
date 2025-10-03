@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>Brew & Beans — Menu</title>
+  <meta name='description' content='Explore our coffee menu: espresso, cappuccino, lattes, and fresh pastries.'>
+  <script src='https://cdn.tailwindcss.com'></script>
+  <link rel='preconnect' href='https://fonts.googleapis.com'>
+  <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
+  <link href='https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap' rel='stylesheet'>
+</head>
+<body class='font-sans'>
+  <!-- Header -->
+  <header class='bg-white shadow sticky top-0 z-50'>
+    <nav class='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8' aria-label='Main navigation'>
+      <div class='flex items-center justify-between h-16'>
+        <a href='index.html' class='text-xl font-semibold text-gray-800'>Brew & Beans</a>
+        <div class='hidden md:flex space-x-8'>
+          <a href='index.html' class='text-gray-600 hover:text-gray-800'>Home</a>
+          <a href='about.html' class='text-gray-600 hover:text-gray-800'>About</a>
+          <a href='menu.html' class='text-gray-600 hover:text-gray-800'>Menu</a>
+          <a href='contact.html' class='text-gray-600 hover:text-gray-800'>Contact</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class='py-12'>
+    <section class='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
+      <h1 class='text-3xl font-semibold mb-4 font-[Montserrat]'>Menu</h1>
+      <p class='mb-6 text-gray-700 text-lg font-[Open Sans]'>Our drinks and pastries are crafted with care. Choose your mood, we’ve got you covered.</p>
+      <div class='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
+        <!-- Espresso -->
+        <article class='bg-white rounded-lg shadow p-4'>
+          <img src='https://images.unsplash.com/photo-1574359173743-af3563845653?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3ODkyNDZ8MHwxfHNlYXJjaHw1fHxlc3ByZXNzbyUyMHNob3QlMjBpbiUyMGdsYXNzfGVufDB8MHx8fDE3NTk0ODg5ODV8MA&ixlib=rb-4.1.0&q=80&w=1080' alt='Espresso shot' class='w-full h-40 object-cover rounded mb-3'>
+          <h3 class='font-[Montserrat] text-lg'>Espresso</h3>
+          <p class='text-sm text-gray-600'>Single-origin, bold and balanced.</p>
+          <p class='font-semibold mt-1'>$3.00</p>
+        </article>
+        <!-- Cappuccino -->
+        <article class='bg-white rounded-lg shadow p-4'>
+          <img src='https://images.pexels.com/photos/2112749/pexels-photo-2112749.jpeg?auto=compress&cs=tinysrgb&h=650&w=940' alt='Cappuccino with latte art' class='w-full h-40 object-cover rounded mb-3'>
+          <h3 class='font-[Montserrat] text-lg'>Cappuccino</h3>
+          <p class='text-sm text-gray-600'>Creamy milk, silky foam, art on top.</p>
+          <p class='font-semibold mt-1'>$4.25</p>
+        </article>
+        <!-- Latte -->
+        <article class='bg-white rounded-lg shadow p-4'>
+          <img src='https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&h=650&w=940' alt='Latte with latte art' class='w-full h-40 object-cover rounded mb-3'>
+          <h3 class='font-[Montserrat] text-lg'>Latte</h3>
+          <p class='text-sm text-gray-600'>Velvety milk, smooth espresso, warm finish.</p>
+          <p class='font-semibold mt-1'>$4.50</p>
+        </article>
+        <!-- Pastry -->
+        <article class='bg-white rounded-lg shadow p-4'>
+          <img src='https://images.unsplash.com/photo-1592004045648-adbd27eb0d52?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3ODkyNDZ8MHwxfHNlYXJjaHw1fHxjcm9pc3NhbnQlMjBhbmQlMjBwYXN0cnklMjBhc3NvcnRtZW50fGVufDB8MHx8fDE3NTk0ODg5OTB8MA&ixlib=rb-4.1.0&q=80&w=1080' alt='Assorted pastries' class='w-full h-40 object-cover rounded mb-3'>
+          <h3 class='font-[Montserrat] text-lg'>Butter Croissant</h3>
+          <p class='text-sm text-gray-600'>Flaky, light, perfect with coffee.</p>
+          <p class='font-semibold mt-1'>$2.75</p>
+        </article>
+        <!-- Muffin -->
+        <article class='bg-white rounded-lg shadow p-4'>
+          <img src='https://images.pexels.com/photos/4676396/pexels-photo-4676396.jpeg?auto=compress&cs=tinysrgb&h=650&w=940' alt='Blueberry muffin' class='w-full h-40 object-cover rounded mb-3'>
+          <h3 class='font-[Montserrat] text-lg'>Blueberry Muffin</h3>
+          <p class='text-sm text-gray-600'>Bright blueberries, soft crumb.</p>
+          <p class='font-semibold mt-1'>$2.95</p>
+        </article>
+        <!-- Cookie -->
+        <article class='bg-white rounded-lg shadow p-4'>
+          <img src='https://images.unsplash.com/photo-1607114910421-a7c2b982d497?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3ODkyNDZ8MHwxfHNlYXJjaHwxfHxjaG9jb2xhdGUlMjBjaGlwJTIwY29va2llfGVufDB8MHx8fDE3NTk0ODg5OTJ8MA&ixlib=rb-4.1.0&q=80&w=1080' alt='Chocolate chip cookie' class='w-full h-40 object-cover rounded mb-3'>
+          <h3 class='font-[Montserrat] text-lg'>Chocolate Chip Cookie</h3>
+          <p class='text-sm text-gray-600'>Crisp edges, gooey center.</p>
+          <p class='font-semibold mt-1'>$1.95</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class='bg-[#3C2415] text-white'>
+    <div class='max-w-7xl mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-4 gap-8'>
+      <div>
+        <h4 class='text-2xl font-semibold mb-2 font-[Montserrat]'>Brew & Beans</h4>
+        <p class='text-sm text-gray-200'>Small-batch roastery meets cozy cafe. Fresh vibes, good conversations.</p>
+      </div>
+      <div>
+        <h4 class='text-lg font-semibold mb-3 font-[Montserrat]'>Location</h4>
+        <p class='text-sm'>123 Bean Street<br>City, ST 00000</p>
+      </div>
+      <div>
+        <h4 class='text-lg font-semibold mb-3 font-[Montserrat]'>Hours</h4>
+        <p class='text-sm'>Mon-Fri: 7am – 6pm<br>Sat-Sun: 8am – 4pm</p>
+      </div>
+      <div>
+        <h4 class='text-lg font-semibold mb-3 font-[Montserrat]'>Links</h4>
+        <ul class='space-y-2'>
+          <li><a href='index.html' class='text-gray-200 hover:text-yellow-300'>Home</a></li>
+          <li><a href='about.html' class='text-gray-200 hover:text-yellow-300'>About</a></li>
+          <li><a href='menu.html' class='text-gray-200 hover:text-yellow-300'>Menu</a></li>
+          <li><a href='contact.html' class='text-gray-200 hover:text-yellow-300'>Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
