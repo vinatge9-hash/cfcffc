@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>Brew & Beans Coffee Shop — Home</title>
+  <meta name='description' content='Brew & Beans: handcrafted coffee, freshly baked pastries, in a cozy neighborhood cafe.'>
+  <script src='https://cdn.tailwindcss.com'></script>
+  <link rel='preconnect' href='https://fonts.googleapis.com'>
+  <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
+  <link href='https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap' rel='stylesheet'>
+</head>
+<body class='font-sans'>
+  <!-- Header / Navigation -->
+  <header class='bg-white shadow sticky top-0 z-50'>
+    <nav class='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8' aria-label='Main navigation'>
+      <div class='flex items-center justify-between h-16'>
+        <a href='index.html' class='text-xl font-semibold text-gray-800'>Brew & Beans</a>
+        <div class='hidden md:flex space-x-8'>
+          <a href='index.html' class='text-gray-600 hover:text-gray-800'>Home</a>
+          <a href='about.html' class='text-gray-600 hover:text-gray-800'>About</a>
+          <a href='menu.html' class='text-gray-600 hover:text-gray-800'>Menu</a>
+          <a href='contact.html' class='text-gray-600 hover:text-gray-800'>Contact</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero with background image (no external CSS) -->
+  <section class='relative min-h-screen'>
+    <img src='https://images.pexels.com/photos/11114741/pexels-photo-11114741.jpeg?auto=compress&cs=tinysrgb&h=650&w=940' alt='Cozy coffee shop interior' class='absolute inset-0 w-full h-full object-cover'>
+    <div class='absolute inset-0 bg-black opacity-40'></div>
+    <div class='relative z-10 flex items-center justify-center h-full px-4'>
+      <div class='text-center text-white max-w-2xl'>
+        <h1 class='text-4xl md:text-6xl font-semibold mb-4 font-[Montserrat]'>Brew & Beans</h1>
+        <p class='text-lg md:text-xl mb-6 font-[Open Sans]'>Your neighborhood coffee shop for handcrafted drinks, pastry flights, and good company.</p>
+        <div class='flex justify-center gap-4'>
+          <a href='menu.html' class='bg-yellow-300 hover:bg-yellow-200 text-gray-900 px-6 py-3 rounded-full font-semibold'>View Menu</a>
+          <a href='contact.html' class='bg-white text-gray-900 border border-white px-6 py-3 rounded-full hover:bg-gray-100'>Find a Location</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <main class='py-16 bg-white'>
+    <section class='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
+      <h2 class='text-3xl font-semibold mb-6 font-[Montserrat]'>Our Classics</h2>
+      <div class='grid grid-cols-1 md:grid-cols-3 gap-6'>
+        <article class='bg-white rounded-lg shadow p-4'>
+          <img src='https://images.unsplash.com/photo-1747242928603-cf2173f64b61?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3ODkyNDZ8MHwxfHNlYXJjaHwxfHxlc3ByZXNzbyUyMHNob3QlMjBpbiUyMGdsYXNzfGVufDB8MHx8fDE3NTk0ODg5ODV8MA&ixlib=rb-4.1.0&q=80&w=1080' alt='Espresso shot' class='w-full h-48 object-cover rounded mb-3'>
+          <h3 class='text-lg font-[Montserrat] mb-1'>Espresso</h3>
+          <p class='text-sm text-gray-600'>Rich, velvety espresso with a caramel finish.</p>
+        </article>
+        <article class='bg-white rounded-lg shadow p-4'>
+          <img src='https://images.unsplash.com/photo-1630439922491-3d7c7ebc2c40?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3ODkyNDZ8MHwxfHNlYXJjaHw5fHxjYXBwdWNjaW5vJTIwd2l0aCUyMGxhdHRlJTIwYXJ0fGVufDB8MHx8fDE3NTk0ODg5ODZ8MA&ixlib=rb-4.1.0&q=80&w=1080' alt='Cappuccino with latte art' class='w-full h-48 object-cover rounded mb-3'>
+          <h3 class='text-lg font-[Montserrat] mb-1'>Cappuccino</h3>
+          <p class='text-sm text-gray-600'>Creamy milk, balanced flavor, and delicate foam.</p>
+        </article>
+        <article class='bg-white rounded-lg shadow p-4'>
+          <img src='https://images.unsplash.com/photo-1533426920549-97eeb6c95c50?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3ODkyNDZ8MHwxfHNlYXJjaHw2fHxjb2xkJTIwYnJldyUyMGluJTIwZ2xhc3N8ZW58MHwwfHx8MTc1OTQ4ODk4N3ww&ixlib=rb-4.1.0&q=80&w=1080' alt='Cold brew coffee' class='w-full h-48 object-cover rounded mb-3'>
+          <h3 class='text-lg font-[Montserrat] mb-1'>Cold Brew</h3>
+          <p class='text-sm text-gray-600'>Smooth and refreshing, steeped for bold clarity.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer (Coffee Shop color palette) -->
+  <footer class='bg-[#3C2415] text-white'>
+    <div class='max-w-7xl mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-4 gap-8'>
+      <div>
+        <h4 class='text-2xl font-semibold mb-2 font-[Montserrat]'>Brew & Beans</h4>
+        <p class='text-sm text-gray-200'>Small-batch roastery meets cozy cafe. Fresh vibes, great conversations.</p>
+      </div>
+      <div>
+        <h4 class='text-lg font-semibold mb-3 font-[Montserrat]'>Contact</h4>
+        <p class='text-sm'>123 Bean Street<br>City, ST 00000</p>
+        <p class='text-sm mt-2'>(555) 012-3456</p>
+        <p class='text-sm'>hello@brewbeans.example</p>
+      </div>
+      <div>
+        <h4 class='text-lg font-semibold mb-3 font-[Montserrat]'>Hours</h4>
+        <p class='text-sm'>Mon-Fri: 7:00 AM – 6:00 PM<br>Sat-Sun: 8:00 AM – 4:00 PM</p>
+      </div>
+      <div>
+        <h4 class='text-lg font-semibold mb-3 font-[Montserrat]'>Quick Links</h4>
+        <ul class='space-y-2'>
+          <li><a href='index.html' class='text-gray-200 hover:text-yellow-300'>Home</a></li>
+          <li><a href='about.html' class='text-gray-200 hover:text-yellow-300'>About</a></li>
+          <li><a href='menu.html' class='text-gray-200 hover:text-yellow-300'>Menu</a></li>
+          <li><a href='contact.html' class='text-gray-200 hover:text-yellow-300'>Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
